@@ -422,7 +422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bab4fd551d7774e018a485b291b44714, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02e3688b46eed4806a5e068a02756888, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -533,6 +533,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   selectedMaterial: {fileID: 2100000, guid: 6a732e018979a450eb12e3d9389213f6, type: 2}
+  segment: 0.02
+  collision: 0.05
+  predPosition: {x: 0, y: 0, z: 0}
+  stdPosition: {x: 0, y: 0, z: 0}
+  stdRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!4 &1321700279
 Transform:
   m_ObjectHideFlags: 0
